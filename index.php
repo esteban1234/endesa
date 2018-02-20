@@ -104,7 +104,7 @@
             <h2 class="text-center" style="color: #fff;">VISION</h2>
             <p class="text-center" style="color: #fff;">Ser el mejor proveedor, así como la mejor empresa en publicidad, corte laser, plasma, router y trasformación de materia. Innovando con nuestros productos y servicios con el propósito de superar las expectativas de nuestros clientes.</p>
           </div>
-          <div class="col-md-4" style="border-right: 1px gray solid; height: 350px;">
+          <div class="col-md-4" style=" height: 350px;">
             <div class="iconos">
               <i class="fas fa-thumbs-up fa-7x"></i>
             </div>
