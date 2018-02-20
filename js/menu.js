@@ -1,47 +1,24 @@
-$(document).ready(main);
+$(function() {
+    var contador = 1;
+    var pull = $('.op-menu');
+    menu = $('nav');
+    abrir = $('.abrir');
+    cerrar = $('.cerrar');
+    menuHeight = pull.height();
 
-var contador = 1;
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        if (contador == 1) {
+           menu.slideToggle(100);
+            contador = 0;
+        } else {
+            menu.slideToggle(100);
+            // abrir.slideToggle(100);
+            contador = 1;
+        }
+    });
 
-function main(){
-	$('#header__icon').click(function(){
-
-		if(contador == 1){
-			$('nav').animate({
-				marginTop: '0px',
-				height:'100%'
-				// display: 'block'
-			},500);
-
-			$('#close').animate({
-				marginTop: '0px',
-			},500);
-
-
-			$('#open').animate({
-				marginTop: '-450px',
-			},500);
-			// $('.menu .close').removeClass('none');
-			// $('.menu .close').addClass('inline-block');
-			contador = 0;
-		} else {
-			contador = 1;
-			$('nav').animate({
-				marginTop: '-450px',
-				height:'0px'
-				// display: 'none'
-			},500);
-
-			$('#close').animate({
-				marginTop: '-450px',
-			},500);
-
-
-			$('#open').animate({
-				marginTop: '0px',
-			},500);
-			// $('.banner').css('marginTop:0px');
-		}
-
-	});
-
-};
+    // if(menuHeight > 5){
+    //   pull.css('position','fixed');
+    // }
+});

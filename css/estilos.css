@@ -6,37 +6,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-header{
-  overflow: hidden;
-  background-color: #f2f4f4;
-}
-.logo{
-  width: 20%;
-  overflow: hidden;
-}
-nav{
-  margin-top: 4%;
-  margin-right: 15%;
-}
-nav ul{
-  padding: 20px 2px;
-  background-color: #000;
-}
-nav ul a.select{
-  font-family: 'Oswald', sans-serif;
-  font-size: 17px;
-  color: #fff;
-  padding: 20px 20px;
-  text-decoration: none;
-}
-nav ul a#selector{
-  background-color: #fff;
-  color: #000;
-}
+
 
 .banner{
-    height: 450px;
-    background: url('../img/inicio.jpg') no-repeat;
+    height: 570px;
+    background: url('../img/banner.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -45,121 +19,63 @@ nav ul a#selector{
     clear: both;
 }
 .banner .fondo{
-  background-color: rgba(0,0,0,0.5);
-  height: 450px;
+  background-color: rgba(0,0,0,0.4);
+  height: 570px;
   overflow: hidden;
 }
-.banner .fondo p.uno{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #fff;
+.menu{
+  background-color: rgba(255,255,255,0.5);
+  height: 150px;
   overflow: hidden;
-  text-align: right;
-  width: 35%;
+}
+.menu ul{
+  /*border:2px red solid;*/
+  padding: 20px;
   margin-left: 5%;
-  margin-top: 3%;
+  margin-top: 8%;
 }
-.banner .fondo p.dos{
+.menu ul a.selector{
+  color:#000;
+  font-size: 19px;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  padding: 20px;
+  text-decoration: none;
+}
+.menu ul a.selector:hover{
+  color:gray;
+}
+.menu ul a#select{
+  
+}
+.logo{
+  width: 20%;
+  margin-right: 7%;
+  margin-top: 1%;
+}
+.textobanner{
+  /*background-color: rgba(255,255,255,0.5);*/
+  text-align: center;
+  width: 70%;
+  font-size: 35px;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   overflow: hidden;
-  text-align: right;
-  width: 37%;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 5%;
 }
-.boton button{
-  margin-top: 1%;
-  margin-left: 27.5%;
+.textobanner .uno{
+  font-size: 30px;
 }
-.tex{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+.texto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
-.cuadro{
-  background-color:  #f7f9f9;
-  border-top: 7px #000 solid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-.cuadro2, .cuadro3, .cuadro4{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-.cuadro2:hover{
-  background-color:  #f7f9f9;
-  border-top: 7px #000 solid;
-}
-.cuadro3:hover{
-  background-color:  #f7f9f9;
-  border-top: 7px #000 solid;
-}
-.cuadro4:hover{
-  background-color:  #f7f9f9;
-  border-top: 7px #000 solid;
-}
-.uno1, .uno2, .uno3, .uno4{
-  display: inline-block;
-  width: 24%;
-}
-.tit{
-  background-color: rgba(204,209,209,.9);
-  font-size: 25px;
+.iconos{
   text-align: center;
-  color: #000;
-}
-/*.fondoa{
-  background-color: rgba(255,255,255,.5);
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
-}*/
-.uno1{
-  height: 230px;
-    background: url('../img/uno.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.uno2{
-  height: 230px;
-    background: url('../img/dos.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.uno3{
-  height: 230px;
-    background: url('../img/tres.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.uno4{
-  height: 230px;
-    background: url('../img/cuatro.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.boton2{
-  margin-top: 3%;
-  text-align: center;
-  /*margin: 0 auto;*/
-  /*margin-left: 27.5%;*/
+    color: #fff;
+  
 }
 /*--------------FOOTER----------*/
 footer{
@@ -178,318 +94,19 @@ footer p{
     font-size: 20px;
     margin-top: 2.5%;
     color: #fff;
-}
-
-/*------------------nosotros----------*/
-
-.banner2{
-    height: 450px;
-    background: url('../img/nosotros.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
     clear: both;
-}
-.banner2 .fondo2{
-  background-color: rgba(0,0,0,0.5);
-  height: 450px;
-  overflow: hidden;
-}
-.banner2 .fondo2 p.uno{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 35%;
-  margin-left: 5%;
-  margin-top: 3%;
-}
-.banner2 .fondo2 p.dos{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 37%;
-  margin-left: 3%;
-  margin-top: 3%;
-}
-
-#slider, #ul
-{
-  height: 300px;
-  padding: 5%;
-  font-size: 18px;
-}
-
-#slider
-{
-  /*outline: 2px red solid;*/
-  margin: auto;
-  margin-bottom: 5%;
-  overflow: hidden;
-  padding: 5%;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  margin-top: 50px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.25);
-  position: relative;
-  width: 600px;
-}
-
-#slider li
-{
-  float: left;
-  position: relative;
-  width: 600px;
-  display: inline-block;
-  height: 300px;
-}
-
-#slider ul
-{
-  list-style: none;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 9000px;
-  transition: left .3s linear;
-  -moz-transition: left .3s linear;
-  -o-transition: left .3s linear;
-  -webkit-transition: left .3s linear;
-  margin-left: -25px;
-  font-family: 'Roboto', sans-serif;
-  color: #666;
-}
-
-.slider-container
-{
-  margin: 0 auto;
-  padding: 0;
-  width: 550px;
-  /*min-height: 180px;*/
-  height: 230px;
-  border-bottom: 1px solid #ccc;
-}
-
-.slider-container h4
-{
-  color: #000;
-  /*text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.50);*/
-  font-weight: bold;
-}
-
-.slider-container  p
-{
-  margin: 10px 25px;
-  font-weight: semi-bold;
-  line-height: 150%;
-  text-align: justify;
-}
-
-@-webkit-keyframes slide-animation {
-  0% {opacity:0;}
-  2% {opacity:1;}
-  20% {left:0px; opacity:1;}
-  22.5% {opacity:0.6;}
-  25% {left:-600px; opacity:1;}
-  45% {left:-600px; opacity:1;}
-  47.5% {opacity:0.6;}
-  50% {left:-1200px; opacity:1;}
-  70% {left:-1200px; opacity:1;}
-  72.5% {opacity:0.6;}
-  75% {left:-1800px; opacity:1;}
-  95% {opacity:1;}
-  98% {left:-1800px; opacity:0;} 
-  100% {left:0px; opacity:0;}
-}
-
-#slider ul
-{
-  -webkit-animation: slide-animation 25s infinite;
-}
-
-#slider ul:hover
-{
-  -moz-animation-play-state: paused;
-  -webkit-animation-play-state: paused;
-}
-
-
-/*-------------------servicios---------------*/
-.banner3{
-    height: 450px;
-    background: url('../img/servicios.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
     overflow: hidden;
-    clear: both;
-}
-.banner3 .fondo3{
-  background-color: rgba(0,0,0,0.5);
-  height: 450px;
-  overflow: hidden;
-}
-.banner3 .fondo3 p.uno{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 35%;
-  margin-left: 5%;
-  margin-top: 3%;
-}
-.banner3 .fondo3 p.dos{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 37%;
-  margin-left: 3%;
-  margin-top: 3%;
-}
-.imagens{
-  height: 200px;
-    background: url('../img/da.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens2{
-  height: 200px;
-    background: url('../img/df.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens3{
-  height: 200px;
-    background: url('../img/dl.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens4{
-  height: 200px;
-    background: url('../img/dp.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens5{
-  height: 200px;
-    background: url('../img/dc.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens6{
-  height: 200px;
-    background: url('../img/dm.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens7{
-  height: 200px;
-    background: url('../img/al.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.imagens8{
-  height: 200px;
-    background: url('../img/mi.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
 }
 
-/*-----------------contacto-----------------*/
-
-.banner4{
-    height: 450px;
-    background: url('../img/contacto.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    overflow: hidden;
-    clear: both;
-}
-.banner4 .fondo4{
-  background-color: rgba(0,0,0,0.5);
-  height: 450px;
-  overflow: hidden;
-}
-.banner4 .fondo4 p.uno{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 35%;
-  margin-left: 5%;
-  margin-top: 3%;
-}
-.banner4 .fondo4 p.dos{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #fff;
-  overflow: hidden;
-  text-align: right;
-  width: 37%;
-  margin-left: 3%;
-  margin-top: 3%;
-}
-.textcontac{
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  color: #000;
-  margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 85%;
-  text-align: center;
-}
-#contact{
-  background:#333333;
-  color:#f4f4f4;
-  padding-bottom:80px;
-  padding-top: 5%;
-}
-
-textarea.form-control{
-    height:100px;
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#901C80;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 100;
 }
