@@ -126,14 +126,142 @@
 
 <section class="seccion2" id="SERVICIOS">
 
+  <div class="section"  style=" padding: 5% 0%;">
+      <div class="container">
+        <h1 class="text-center" style="color: #901C80;">SERVICIOS</h1>
+          <p class="text-center" style="color: #901C80; font-size: 16px;">Construimos los cimientos para una exitosa estrategia de Marketing</p> <br><br>
+        <div class="row">
+          <div class="col-md-3 cuadro">
+            
+            <h2>Diseños de Sitios Web</h2>
+            <p>Desarrollo de sitios Web optimizados, compatibles con dispositivos movíles, para mayor visibilidad de tu negocio.</p>
+          </div>
+          <div class="col-md-3 cuadro">
+            
+            <h2>Campañas Digitales</h2>
+            <p>Campañas en medios digitales para mostrar tu sitio web o tienda en línea a tu audiencia ideal.</p>
+          </div>
+          <div class="col-md-3 cuadro">
+            
+            <h2>Comercio Electrónico</h2>
+            <p>Tu tienda en línea con las herramientas necesarias de marketing que te permitan controlarlo todo.</p>
+          </div>
+          <div class="col-md-3 cuadro">
+            
+            <h2>Manejo de Redes Sociales</h2>
+            <p>Brindamos la mejor atención a tu público, desde creación de contenidos, administración de páginas, análisis y seguimiento, para impulsar tu negocio al éxito.</p>
+          </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+          <div class="col-md-3 cuadro">
+            
+            <h2>Producción Audiovisual</h2>
+            <p>Desde videos institucionales hasta videos publicitarios con post-producción. Lo que necesites para generar un concepto, una idea, nosotros te ayudamos.</p>
+          </div>
+          <div class="col-md-3 cuadro">
+
+            <h2>Diseño</h2>
+            <p>Logotipo y diseños de identidad, Diseño de empaque, Diseño de Comercio (Arq), Manual de Marca.</p>
+          </div>
+          <div class="col-md-3 cuadro">
+            
+            <h2>Fotografía</h2>
+            <p>Contamos con las mejores herramientas para capturar y plasmar imágenes que causen un impacto favorable. ¡Contamos con video y fotografía con dron, en tierra y hasta en 360°!</p>
+          </div>
+          <div class="col-md-3 cuadro">
+            
+            <h2>Publicidad</h2>
+            <p>Contamos con impresión de lona a gran formato, vinil, micro perforado, lona mesh, electrostático, vinil transparente, manejando una calidad casi tipo fotográfica con los acabados que necesitas en cada uno de los trabajos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </section>
+
+<div class="banner2">
+  <div class="fondo2">
+    <p>Aceleramos tu entrada al mundo digital</p>
+  </div>
+</div>
 
 <section class="seccion3" id="CONTACTO">
 
-</section>
+  <div class="section" style="background-color: #901C80; padding: 5% 0%;">
 
-<section id="contact" class="content-section text-center">
+    <h1 class="text-center" style="color: #fff;">CONTACTO</h1> <br>
+          <p class="text-center" style="color: #fff; font-size: 16px;">Para solicitar cotizaciones o compras favor de ponerse en contacto con nosotros vía telefónica o correo electrónico. Presentaremos los precios y tiempos de entrega.</p> <br><br>
 
+    <div class="cont-general">
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.3016237142087!2d-93.08928298575663!3d16.761662724962218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed276f8ff793c7%3A0xd22c78d1b4fce54!2sAv+Rosa+del+Ote+271%2C+El+Bosque%2C+29049+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1519144802411" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+      </div>
+      <div class="direccion">
+        <div class="texto-direccion">
+          <span class="fas fa-map-marker-alt"></span>
+          <div class="dir-text">
+            <div>DIRECCION</div>
+            <p>Av. Rosa del OTE Num. 271, COL. El Bosque, Tuxtla Gutierrez, Chiapas. C.P. 29049 </p>
+          </div>
+        </div>
+        <div class="texto-direccion">
+          <span class="fas fa-phone-volume"></span>
+          <div class="dir-text">
+            <div>TELEFONO</div>
+            <p>PENDIENTE </p>
+          </div>
+        </div>
+        <div class="texto-direccion">
+          <span class="far fa-clock"></span>
+          <div class="dir-text">
+            <div>HORARIO</div>
+            <p>Lunes a Viernes de 9am a 6pm </p>
+          </div>
+        </div>
+        <div class="texto-direccion">
+          <span class="far fa-envelope"></span>
+          <div class="dir-text">
+            <div>CORREO</div>
+            <p>info@disenoendesa.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div>
+      <form id="form" action="envia.php" method="post">
+        <div class="group-input">
+          <div class="input-group">
+            <span id="msj"></span>
+            <label class="label">Nombre:</label>
+            <input type="text" name="nombre" placeholder="" required/>
+          </div>
+          <div class="input-group">
+            <span id="msj"></span>
+            <label class="label">Telefono:</label>
+            <input type="text" name="telefono">
+          </div>
+
+          <div class="input-group">
+            <span id="msj"></span>
+            <label class="label">Correo:</label>
+            <input type="text"  name="correo">
+          </div>
+          <div class="group-comentario">
+            <span id="msj"></span>
+            <label class="label" >Comentarios:</label>
+            <textarea name="comentario" rows="8" cols="40"></textarea>
+          </div>
+        </div>
+        <input type="submit" class="enviar" value="Enviar">
+      </form>
+    </div>
+
+  </div>
 </section>
 
 
