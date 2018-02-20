@@ -28,11 +28,16 @@
   height: 150px;
   overflow: hidden;
 }
-.menu ul{
+.menu nav{
   /*border:2px red solid;*/
+  width: 50%;
+}
+.menu ul{
+  
+  /*width: 100%;*/
   padding: 20px;
   margin-left: 5%;
-  margin-top: 8%;
+  margin-top: 7%;
 }
 .menu ul a.selector{
   color:#000;
