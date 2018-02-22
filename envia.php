@@ -23,7 +23,6 @@ $mail->FromName = $nombre;
 
 //To address and name
 $mail->addAddress("info@disenoendesa.com");
-// $mail->addAddress("ballina.santiago@gmail.com");
 
 
 $mail->isHTML(true);
