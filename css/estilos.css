@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.op-menu{
+  display: none;
+}
+
 
 .banner{
     height: 570px;

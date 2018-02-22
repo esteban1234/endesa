@@ -48,6 +48,9 @@
             <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
           </ul>
         </nav>
+        <div class="op-menu">
+          <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+        </div>
 
         <figure class="logo pull-right">
           <img src="img/endesa.png" alt="ENDESA" class="img-responsive">
@@ -73,13 +76,12 @@
   <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/agencia2.jpg"
-            class="img-responsive">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <img src="img/agencia2.jpg" class="img-responsive img-re">
           </div>
-          <div class="col-md-6">
-            <h1>ENDESA</h1>
-            <h3>Construimos tus proyectos para una exitosa estrategia de Marketing</h3>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <h1 class="en">ENDESA</h1>
+            <h3 class="h3-info">Construimos tus proyectos para una exitosa estrategia de Marketing</h3>
             <p class="texto">Somos una Agencia de Publicidad y Marketing Digital que ofrece a tu negocio Soluciones que le darán la presencia y relevancia que necesita para crecer. <br><br>
             Somos una empresa de publicidad y trasformación de materiales con experiencia y tecnología, convirtiéndose en una empresa especialista en fabricación de anuncios y maquilas. Nuestra capacidad, compromiso y rentabilidad nos lleva a trabajar con sin número de industrias, siempre brindado el mejor servicio y compromiso hacia nuestros clientes, brindando un servicio especializado y asesoría para cada caso.</p>
           </div>
@@ -90,26 +92,26 @@
     <div class="section" style="background-color: #901C80; padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-4" style="border-right: 1px gray solid; height: 350px;">
+          <div class="col-sm-4 col-md-4 alto-auto bor" style="border-right: 1px gray solid; height: 350px;">
             <div class="iconos">
               <i class="fas fa-american-sign-language-interpreting fa-7x"></i>
             </div>
-            <h2 class="text-center" style="color: #fff;">MISION</h2>
-            <p class="text-center" style="color: #fff;">Ser reconocidos por nuestro liderazgo a través de nuestra calidad, nuestro respeto por la diversidad y nuestro compromiso para crear oportunidades excepcionales para el crecimiento personal, somos una empresa que conoce las necesidad y requerimientos del cliente y asegura su satisfacción, comprometida a entregar productos y servicios de manera eficiente y oportuna.</p>
+            <h2 class="text-center tit-mvv" style="color: #fff;">MISION</h2>
+            <p class="text-center txt-mv" style="color: #fff;">Ser reconocidos por nuestro liderazgo a través de nuestra calidad, nuestro respeto por la diversidad y nuestro compromiso para crear oportunidades excepcionales para el crecimiento personal, somos una empresa que conoce las necesidad y requerimientos del cliente y asegura su satisfacción, comprometida a entregar productos y servicios de manera eficiente y oportuna.</p>
           </div>
-          <div class="col-md-4" style="border-right: 1px gray solid; height: 350px;">
+          <div class="col-sm-4 col-md-4 alto-auto bor" style="border-right: 1px gray solid; height: 350px;">
             <div class="iconos">
               <i class="fas fa-chart-line fa-7x"></i>
             </div>
-            <h2 class="text-center" style="color: #fff;">VISION</h2>
-            <p class="text-center" style="color: #fff;">Ser el mejor proveedor, así como la mejor empresa en publicidad, corte laser, plasma, router y trasformación de materia. Innovando con nuestros productos y servicios con el propósito de superar las expectativas de nuestros clientes.</p>
+            <h2 class="text-center tit-mvv" style="color: #fff;">VISION</h2>
+            <p class="text-center txt-mv" style="color: #fff;">Ser el mejor proveedor, así como la mejor empresa en publicidad, corte laser, plasma, router y trasformación de materia. Innovando con nuestros productos y servicios con el propósito de superar las expectativas de nuestros clientes.</p>
           </div>
-          <div class="col-md-4" style=" height: 350px;">
+          <div class="col-sm-4 col-md-4 alto-auto bor" style=" height: 350px;">
             <div class="iconos">
               <i class="fas fa-thumbs-up fa-7x"></i>
             </div>
-            <h2 class="text-center" style="color: #fff;">VALORES</h2>
-            <p class="" style="color: #fff;">
+            <h2 class="text-center tit-mvv" style="color: #fff;">VALORES</h2>
+            <p class="txt-v" style="color: #fff;">
               Nuestros valores son el logro de nuestra estrategia del compromiso, ofreciéndole cada día más y mejores servicios. <br>
               <i class="fas fa-paper-plane"></i> Responsabilidad <br>
               <i class="fas fa-paper-plane"></i> Calidad <br>
@@ -127,26 +129,29 @@
 <section class="seccion2" id="SERVICIOS">
 
   <div class="section"  style=" padding: 5% 0%;">
-      <div class="container">
-        <h1 class="text-center" style="color: #901C80;">SERVICIOS</h1>
-          <p class="text-center" style="color: #901C80; font-size: 16px;">Construimos los cimientos para una exitosa estrategia de Marketing</p> <br><br>
-        <div class="row">
-          <div class="col-md-3 cuadro">
+      <div class="container delete-br">
+        <h1 class="text-center en" style="color: #901C80;">SERVICIOS</h1>
+          <p class="text-center txt-ser" style="color: #901C80; font-size: 16px;">Construimos los cimientos para una exitosa estrategia de Marketing</p> <br><br>
+        <div class="row delete-br">
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Diseños de Sitios Web</h2>
             <p>Desarrollo de sitios Web optimizados, compatibles con dispositivos movíles, para mayor visibilidad de tu negocio.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <!-- <div class="clearfix visible-sm"></div> -->
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Campañas Digitales</h2>
             <p>Campañas en medios digitales para mostrar tu sitio web o tienda en línea a tu audiencia ideal.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="clearfix visible-sm"></div>
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Comercio Electrónico</h2>
             <p>Tu tienda en línea con las herramientas necesarias de marketing que te permitan controlarlo todo.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <!-- <div class="clearfix visible-sm"></div> -->
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Manejo de Redes Sociales</h2>
             <p>Brindamos la mejor atención a tu público, desde creación de contenidos, administración de páginas, análisis y seguimiento, para impulsar tu negocio al éxito.</p>
@@ -155,22 +160,24 @@
         <br><br>
 
         <div class="row">
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Producción Audiovisual</h2>
             <p>Desde videos institucionales hasta videos publicitarios con post-producción. Lo que necesites para generar un concepto, una idea, nosotros te ayudamos.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <!-- <div class="clearfix visible-sm"></div> -->
+          <div class="col-sm-6 col-md-3 cuadro">
 
             <h2>Diseño</h2>
             <p>Logotipo y diseños de identidad, Diseño de empaque, Diseño de Comercio (Arq), Manual de Marca.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="clearfix visible-sm"></div>
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Fotografía</h2>
             <p>Contamos con las mejores herramientas para capturar y plasmar imágenes que causen un impacto favorable. ¡Contamos con video y fotografía con dron, en tierra y hasta en 360°!</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             
             <h2>Publicidad</h2>
             <p>Contamos con impresión de lona a gran formato, vinil, micro perforado, lona mesh, electrostático, vinil transparente, manejando una calidad casi tipo fotográfica con los acabados que necesitas en cada uno de los trabajos.</p>
@@ -191,8 +198,8 @@
 
   <div class="section" style="background-color: #901C80; padding: 5% 0%;">
 
-    <h1 class="text-center" style="color: #fff;">CONTACTO</h1> <br>
-          <p class="text-center" style="color: #fff; font-size: 16px;">Para solicitar cotizaciones o compras favor de ponerse en contacto con nosotros vía telefónica o correo electrónico. Presentaremos los precios y tiempos de entrega.</p> <br><br>
+    <h1 class="text-center en" style="color: #fff;">CONTACTO</h1> <br>
+          <p class="text-center txt-contacto" style="color: #fff; font-size: 16px;">Para solicitar cotizaciones o compras favor de ponerse en contacto con nosotros vía telefónica o correo electrónico. Presentaremos los precios y tiempos de entrega.</p> <br><br>
 
     <div class="cont-general">
       <div class="mapa">
@@ -233,31 +240,33 @@
     </div>
     <br><br>
     <div>
-      <form id="form" action="envia.php" method="post">
+      <form id="form"  method="post" onSubmit="return false">
         <div class="group-input">
           <div class="input-group">
             <span id="msj"></span>
             <label class="label">Nombre:</label>
-            <input type="text" name="nombre" placeholder="" required/>
+            <input type="text" id="txtNOMBRE" name="nombre" placeholder="" required/>
           </div>
           <div class="input-group">
             <span id="msj"></span>
             <label class="label">Telefono:</label>
-            <input type="text" name="telefono">
+            <input id="txtTELEFONO" type="text"  name="telefono">
           </div>
 
           <div class="input-group">
             <span id="msj"></span>
             <label class="label">Correo:</label>
-            <input type="text"  name="correo">
+            <input id="txtCORREO" type="text"  name="correo">
           </div>
           <div class="group-comentario">
             <span id="msj"></span>
             <label class="label" >Comentarios:</label>
-            <textarea name="comentario" rows="8" cols="40"></textarea>
+            <textarea id="txtCOMENTARIO" name="comentario"  rows="8" cols="40"></textarea>
           </div>
+          <div id="_AJAX_PRE_"></div><br>
         </div>
-        <input type="submit" class="enviar" value="Enviar">
+
+        <input type="submit" class="enviar" value="Enviar" onclick="sendCORREO()">
       </form>
     </div>
 

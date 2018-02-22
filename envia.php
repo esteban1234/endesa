@@ -1,6 +1,6 @@
 <?php
 //Librerías para el envío de mail
-require('../phpmailer/phpmailer/class.phpmailer.php');
+require('phpmailer/phpmailer/class.phpmailer.php');
 
 //PHPMailer Object
 $mail = new PHPMailer();

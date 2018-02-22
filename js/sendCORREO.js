@@ -47,7 +47,7 @@ function sendCORREO(){
 				}
 			}
 
-			connect.open('POST','envia.php',true);
+			connect.open('POST','../envia.php',true);
 			connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 			connect.send(form);
 		}

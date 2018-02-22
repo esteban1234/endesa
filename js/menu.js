@@ -1,24 +1,33 @@
-$(function() {
-    var contador = 1;
-    var pull = $('.op-menu');
-    menu = $('nav');
-    abrir = $('.abrir');
-    cerrar = $('.cerrar');
-    menuHeight = pull.height();
+$(document).ready(main);
 
-    $(pull).on('click', function(e) {
-        e.preventDefault();
+var contador = 1;
+
+function main() {
+    $('.op-menu').click(function() {
         if (contador == 1) {
-           menu.slideToggle(100);
+            $('nav').animate({
+                left: '0'
+            }, 800);
+
+
+             $('.op-menu').animate({
+                left: '70%'
+            }, 800);
+
+
             contador = 0;
         } else {
-            menu.slideToggle(100);
-            // abrir.slideToggle(100);
             contador = 1;
+            $('nav').animate({
+                left: '-100%'
+            }, 800);
+
+           
+            $('.op-menu').animate({
+                left: '0'
+            }, 800);
+
         }
     });
 
-    // if(menuHeight > 5){
-    //   pull.css('position','fixed');
-    // }
-});
+}
